@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 控制bean加载顺序
+    <bean class="model.User" id="user" depends-on="wife"></bean>
+    <bean class="model.Wife" id="wife"></bean>-->
+
+    <!--自动注入
+    byType 根据类型去自动匹配，出现多个类型匹配时会报错  但是可以设置primary = "true" 表示优先注入
+    byname 根据set方法名去匹配
+    constructor 根据构造器去匹配
+            优先根据参数名字去匹配，加入参数名字没有匹配到，根据参数类型匹配
+            会根据构造函数完整的参数进行匹配注入，如果构造函数的参数有多个，ioc容器中必须要有多个参数才能匹配
+    -->
+    <bean class="model.Person" id="person" autowire="byType"></bean>
+
+    <!-- scope作用域 默认为单例 prototype为多例 -->
+
+    <bean class="model.Wife" id="wife" scope="prototype" primary="true">
+        <property name="name" value="无形海"></property>
+    </bean>
+    <bean class="model.Wife" id="wife2" scope="prototype">
+        <property name="name" value="无形海"></property>
+    </bean>
+
+
+
+
+</beans>

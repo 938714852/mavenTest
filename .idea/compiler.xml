@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pro02-module-java" />
+        <module name="pro07-module-spring02" />
+        <module name="pro04-modle-web" />
+        <module name="pro05-module-apriori" />
+        <module name="pro06-module-spring01" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pro05-modle-web" target="1.8" />
+      <module name="pro07-module-web" target="1.8" />
+      <module name="pro10-module-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

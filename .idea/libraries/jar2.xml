@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jar、">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/pro06-module-spring01/src/main/java/jar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/pro06-module-spring01/src/main/java/jar" recursive="false" />
+  </library>
+</component>

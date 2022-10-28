@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p" xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 设置别名，原本的名字也可以使用 -->
+    <alias name="userService" alias="service"></alias>
+    <bean class="service.impl.UserServiceImpl" id="userService" name="service2,service3"> <!--控制反转 -->
+        <property name="iUserDao" ref="daolmpl2"/> <!--依赖注入 , 通过ref关联对象，new对应的对象-->
+    </bean>
+    <bean class="dao.impl.UserDaolmpl" id="daolmpl1"></bean>
+
+    <bean class="dao.impl.UserDaoOracleImpl" id="daolmpl2"></bean>
+
+
+
+    <!-- 使用基于setter的依赖注入 -->
+    <bean class="model.User" id="user">
+        <property name="id" value="123"></property>
+        <property name="name" value="吴新海"></property>
+    </bean>
+    <!-- 使用构造函数的依赖注入时，必须包含构造函数的所有参数
+        name可以省略，省略是注意顺序，也可以用index表示顺序
+
+    -->
+
+    <bean class="model.User" id="user2">
+        <constructor-arg name="id" value="12345"></constructor-arg>
+        <constructor-arg index="1" value="吴鑫海"></constructor-arg>
+    </bean>
+
+    <!--使用c命名空间简化基于构造方法属性注入xml配置-->
+    <bean class="model.User" id="user4" c:id="1234567" c:name="吴兴海"></bean>
+
+
+    <!--使用p命名空间简化基于setter属性注入XML配置，不支持集合-->
+    <bean class="model.User" id="user3" p:name="吴星海" p:id="123456">
+    </bean>
+
+    <bean class="model.Person" id="person" p:id="666">
+        <property name="name" value="吴行海"></property>
+        <property name="course">
+            <map>
+                <entry key="1" value="算法"></entry>
+            </map>
+        </property>
+        <property name="wife" >
+            <bean class="model.Wife">
+                <constructor-arg name="id" value="123"></constructor-arg>
+                <constructor-arg name="age" value="18"></constructor-arg>
+                <constructor-arg name="name" value="无形海"></constructor-arg>
+            </bean>
+        </property>
+        <property name="hobbies">
+            <list>
+                <value>唱歌</value>
+            </list>
+        </property>
+
+
+    </bean>
+
+
+
+</beans>
