@@ -12,8 +12,9 @@
         <module>pro02-module-java</module>
         <module>pro04-modle-web</module>
         <module>pro05-module-apriori</module>
-        <module>pro06-module-spring01</module>
-        <module>pro07-module-spring02</module>
+        <module>pro06-module-spring_xml</module>
+        <module>pro07-module-spring_annotation</module>
+        <module>pro08-maven-spring_javaconfig</module>
 
     </modules>
 

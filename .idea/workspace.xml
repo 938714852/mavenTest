@@ -6,7 +6,85 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f34994f4-d36e-4357-80c2-bd98b770f8ca" name="Default Changelist" comment="" />
+    <list default="true" id="f34994f4-d36e-4357-80c2-bd98b770f8ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/main/java/com/ustc/IocJavaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/main/java/com/ustc/SecondJavaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/main/java/com/ustc/beans/MyImportBeanDefinitionRegistrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/main/java/com/ustc/beans/MyImportSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/main/java/com/ustc/beans/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/main/java/com/ustc/beans/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/main/java/com/ustc/beans/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/main/java/com/ustc/beans/Wife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/main/java/com/ustc/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/main/java/com/ustc/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/main/java/com/ustc/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/main/java/com/ustc/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/main/java/com/ustc/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/main/java/com/ustc/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/test/java/com/ustc/test/JavaConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/pro06-module-spring01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/pro06-module-spring_xml.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/src/main/java/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/src/main/java/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/src/main/java/dao/impl/UserDaoOracleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/src/main/java/dao/impl/UserDaoOracleImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/src/main/java/dao/impl/UserDaolmpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/src/main/java/dao/impl/UserDaolmpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/src/main/java/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/src/main/java/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/src/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/src/main/java/model/Wife.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/src/main/java/model/Wife.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/src/main/java/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/src/main/java/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/src/main/java/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/src/main/java/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/src/main/resources/spring2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/src/main/resources/spring2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/src/test/java/com/ustc/test/IocHTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/src/test/java/com/ustc/test/IocHTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/src/test/java/com/ustc/test/IocTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/src/test/java/com/ustc/test/IocTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/target/classes/META-INF/pro06-module-spring01.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/target/classes/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/target/classes/dao/impl/UserDaoOracleImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/target/classes/dao/impl/UserDaolmpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/target/classes/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/target/classes/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/target/classes/model/Wife.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/target/classes/service/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/target/classes/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/target/classes/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/target/classes/spring2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro06-module-spring_xml/target/classes/spring2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/target/test-classes/com/ustc/test/IocHTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro06-module-spring01/target/test-classes/com/ustc/test/IocTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro07-module-spring_annotation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/src/main/java/com/ustc/beans/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro07-module-spring_annotation/src/main/java/com/ustc/beans/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/src/main/java/com/ustc/beans/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro07-module-spring_annotation/src/main/java/com/ustc/beans/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/src/main/java/com/ustc/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro07-module-spring_annotation/src/main/java/com/ustc/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/src/main/java/com/ustc/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro07-module-spring_annotation/src/main/java/com/ustc/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/src/main/java/com/ustc/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro07-module-spring_annotation/src/main/java/com/ustc/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/src/main/java/com/ustc/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro07-module-spring_annotation/src/main/java/com/ustc/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/src/main/java/com/ustc/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro07-module-spring_annotation/src/main/java/com/ustc/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/src/main/java/com/ustc/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro07-module-spring_annotation/src/main/java/com/ustc/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/src/main/java/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro07-module-spring_annotation/src/main/java/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pro07-module-spring_annotation/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/src/main/resources/spring_ioc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro07-module-spring_annotation/src/main/resources/spring_ioc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/src/test/java/com/ustc/test/IocTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro07-module-spring_annotation/src/test/java/com/ustc/test/IocTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/target/classes/com/ustc/beans/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/target/classes/com/ustc/beans/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/target/classes/com/ustc/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/target/classes/com/ustc/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/target/classes/com/ustc/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/target/classes/com/ustc/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/target/classes/com/ustc/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/target/classes/com/ustc/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/target/classes/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/target/classes/spring_ioc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro07-module-spring02/target/test-classes/com/ustc/test/IocTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +100,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -47,6 +128,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2FRZlHnX2P35QPqQtgOOEmeL3Tg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -55,9 +139,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pro08-maven-spring_javaconfig/src/main" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34367815" />
@@ -67,27 +152,28 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="model" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ustc" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro08-maven-spring_javaconfig\src\main" />
+      <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro08-maven-spring_javaconfig\src\main\java" />
+      <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro08-maven-spring_javaconfig\src\main\resources" />
+      <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro06-module-spring01\src\main\resources" />
+      <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro06-module-spring01" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ustc.maven" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro06-module-spring01\src\main" />
       <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro06-module-spring01\src\main\java" />
       <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro05-module-apriori\src" />
       <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro05-module-apriori\src\main\file" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro06-module-spring01\src\main\resources" />
-      <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro06-module-spring01" />
-      <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro06-module-spring01\src" />
-      <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro06-module-spring01\target\classes" />
-      <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro06-module-spring01\src\main\java\jar" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ustc.maven" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="model" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -95,41 +181,9 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IocTest.test04">
-    <configuration name="IocHTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro06-module-spring01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ustc.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ustc.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ustc.test.IocHTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IocTest.test01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro07-module-spring02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ustc.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ustc.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ustc.test.IocTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IocTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro07-module-spring02" />
+  <component name="RunManager" selected="JUnit.JavaConfigTest.test04">
+    <configuration name="IocTest.test02 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro06-module-spring_xml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ustc.test.*" />
@@ -144,8 +198,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IocTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro07-module-spring02" />
+    <configuration name="JavaConfigTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro08-maven-spring_javaconfig" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ustc.test.*" />
@@ -153,15 +207,47 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ustc.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ustc.test.IocTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ustc.test.JavaConfigTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaConfigTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro08-maven-spring_javaconfig" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ustc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ustc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ustc.test.JavaConfigTest" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaConfigTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro08-maven-spring_javaconfig" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ustc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ustc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ustc.test.JavaConfigTest" />
       <option name="METHOD_NAME" value="test03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IocTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro07-module-spring02" />
+    <configuration name="JavaConfigTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro08-maven-spring_javaconfig" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ustc.test.*" />
@@ -169,7 +255,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ustc.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ustc.test.IocTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ustc.test.JavaConfigTest" />
       <option name="METHOD_NAME" value="test04" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -280,20 +366,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.IocHTest.test01" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
-      <item itemvalue="JUnit.IocTest.test01 (1)" />
-      <item itemvalue="JUnit.IocTest.test02" />
-      <item itemvalue="JUnit.IocTest.test03" />
-      <item itemvalue="JUnit.IocTest.test04" />
+      <item itemvalue="JUnit.JavaConfigTest.test01" />
+      <item itemvalue="JUnit.JavaConfigTest.test02" />
+      <item itemvalue="JUnit.IocTest.test02 (1)" />
+      <item itemvalue="JUnit.JavaConfigTest.test03" />
+      <item itemvalue="JUnit.JavaConfigTest.test04" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IocTest.test04" />
-        <item itemvalue="JUnit.IocTest.test03" />
-        <item itemvalue="JUnit.IocTest.test02" />
-        <item itemvalue="JUnit.IocTest.test01 (1)" />
-        <item itemvalue="JUnit.IocHTest.test01" />
+        <item itemvalue="JUnit.JavaConfigTest.test04" />
+        <item itemvalue="JUnit.JavaConfigTest.test03" />
+        <item itemvalue="JUnit.JavaConfigTest.test02" />
+        <item itemvalue="JUnit.IocTest.test02 (1)" />
+        <item itemvalue="JUnit.JavaConfigTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -350,6 +436,9 @@
       <workItem from="1666795231488" duration="601000" />
       <workItem from="1666795847841" duration="4565000" />
       <workItem from="1666854236127" duration="12800000" />
+      <workItem from="1666952059521" duration="211000" />
+      <workItem from="1666955719732" duration="670000" />
+      <workItem from="1667104596460" duration="16423000" />
     </task>
     <servers />
   </component>
@@ -361,21 +450,21 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="552" y="174" key="#Inspections/0.0.1920.1032@0.0.1920.1032" timestamp="1666859354705" />
-    <state x="502" y="170" key="#Project_Structure" timestamp="1666857354225">
+    <state x="502" y="170" key="#Project_Structure" timestamp="1667110628275">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="446" y="168" key="#Project_Structure/0.0.1707.1019@0.0.1707.1019" timestamp="1664890182604" />
-    <state x="502" y="170" key="#Project_Structure/0.0.1920.1032@0.0.1920.1032" timestamp="1666857354225" />
+    <state x="502" y="170" key="#Project_Structure/0.0.1920.1032@0.0.1920.1032" timestamp="1667110628275" />
     <state x="414" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1665283734142">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="368" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.1019@0.0.1707.1019" timestamp="1664937186390" />
     <state x="414" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1665283734142" />
-    <state x="741" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1666866698949">
+    <state x="741" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1667131285575">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="659" y="219" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1019@0.0.1707.1019" timestamp="1664938723552" />
-    <state x="741" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1666866698949" />
+    <state x="741" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1667131285575" />
     <state x="584" y="285" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1664938634992">
       <screen x="0" y="0" width="1707" height="1019" />
     </state>
@@ -394,59 +483,63 @@
     </state>
     <state x="685" y="484" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1707.1019@0.0.1707.1019" timestamp="1664891816389" />
     <state x="770" y="490" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1664458683863" />
-    <state x="414" y="440" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1666857498258">
+    <state x="414" y="440" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1667110659900">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="414" y="440" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1666857498258" />
-    <state x="696" y="394" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1666857499928">
+    <state x="414" y="440" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1667110659900" />
+    <state x="643" y="373" width="632" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1667111428728">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="696" y="394" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1032@0.0.1920.1032" timestamp="1666857499928" />
+    <state x="643" y="373" width="632" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1032@0.0.1920.1032" timestamp="1667111428728" />
+    <state x="696" y="394" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1667110661773">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="696" y="394" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1032@0.0.1920.1032" timestamp="1667110661773" />
     <state x="740" y="271" key="FileChooserDialogImpl" timestamp="1666798862134">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="658" y="268" key="FileChooserDialogImpl/0.0.1707.1019@0.0.1707.1019" timestamp="1664892142042" />
     <state x="740" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1666798862134" />
-    <state width="1858" height="335" key="GridCell.Tab.0.bottom" timestamp="1666870805206">
+    <state width="1858" height="325" key="GridCell.Tab.0.bottom" timestamp="1667136127689">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1663" height="151" key="GridCell.Tab.0.bottom/0.0.1707.1019@0.0.1707.1019" timestamp="1665480155646" />
-    <state width="1858" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1666870805206" />
-    <state width="1858" height="335" key="GridCell.Tab.0.center" timestamp="1666870805206">
+    <state width="1858" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1667136127689" />
+    <state width="1858" height="325" key="GridCell.Tab.0.center" timestamp="1667136127687">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1663" height="151" key="GridCell.Tab.0.center/0.0.1707.1019@0.0.1707.1019" timestamp="1665480155646" />
-    <state width="1858" height="335" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1666870805206" />
-    <state width="1858" height="335" key="GridCell.Tab.0.left" timestamp="1666870805206">
+    <state width="1858" height="325" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1667136127687" />
+    <state width="1858" height="325" key="GridCell.Tab.0.left" timestamp="1667136127686">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1663" height="151" key="GridCell.Tab.0.left/0.0.1707.1019@0.0.1707.1019" timestamp="1665480155646" />
-    <state width="1858" height="335" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1666870805206" />
-    <state width="1858" height="335" key="GridCell.Tab.0.right" timestamp="1666870805206">
+    <state width="1858" height="325" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1667136127686" />
+    <state width="1858" height="325" key="GridCell.Tab.0.right" timestamp="1667136127688">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1663" height="151" key="GridCell.Tab.0.right/0.0.1707.1019@0.0.1707.1019" timestamp="1665480155646" />
-    <state width="1858" height="335" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1666870805206" />
-    <state width="1858" height="335" key="GridCell.Tab.1.bottom" timestamp="1666870805207">
+    <state width="1858" height="325" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1667136127688" />
+    <state width="1858" height="335" key="GridCell.Tab.1.bottom" timestamp="1667119410336">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1143" height="274" key="GridCell.Tab.1.bottom/0.0.1707.1019@0.0.1707.1019" timestamp="1664979723011" />
-    <state width="1858" height="335" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1666870805207" />
-    <state width="1858" height="335" key="GridCell.Tab.1.center" timestamp="1666870805206">
+    <state width="1858" height="335" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1667119410336" />
+    <state width="1858" height="335" key="GridCell.Tab.1.center" timestamp="1667119410336">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1143" height="274" key="GridCell.Tab.1.center/0.0.1707.1019@0.0.1707.1019" timestamp="1664979723011" />
-    <state width="1858" height="335" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1666870805206" />
-    <state width="1858" height="335" key="GridCell.Tab.1.left" timestamp="1666870805206">
+    <state width="1858" height="335" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1667119410336" />
+    <state width="1858" height="335" key="GridCell.Tab.1.left" timestamp="1667119410336">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1143" height="274" key="GridCell.Tab.1.left/0.0.1707.1019@0.0.1707.1019" timestamp="1664979723011" />
-    <state width="1858" height="335" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1666870805206" />
-    <state width="1858" height="335" key="GridCell.Tab.1.right" timestamp="1666870805207">
+    <state width="1858" height="335" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1667119410336" />
+    <state width="1858" height="335" key="GridCell.Tab.1.right" timestamp="1667119410336">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1143" height="274" key="GridCell.Tab.1.right/0.0.1707.1019@0.0.1707.1019" timestamp="1664979723011" />
-    <state width="1858" height="335" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1666870805207" />
+    <state width="1858" height="335" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1667119410336" />
     <state width="1593" height="278" key="GridCell.Tab.2.bottom" timestamp="1665320350540">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -496,25 +589,33 @@
     </state>
     <state x="331" y="36" key="SettingsEditor/0.0.1707.1019@0.0.1707.1019" timestamp="1664895061785" />
     <state x="461" y="158" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1666797696220" />
+    <state x="601" y="263" key="Vcs.Push.Dialog.v2" timestamp="1666955745518">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="601" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1666955745518" />
     <state x="870" y="212" width="638" height="786" key="find.popup" timestamp="1664889434182">
       <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state x="870" y="212" width="638" height="786" key="find.popup/0.0.1707.1019@0.0.1707.1019" timestamp="1664889434182" />
-    <state x="334" y="210" key="new project wizard" timestamp="1666857063940">
+    <state x="665" y="306" key="git4idea.merge.GitPullDialog" timestamp="1666955798918">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="665" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1666955798918" />
+    <state x="334" y="210" key="new project wizard" timestamp="1667110454438">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="297" y="207" key="new project wizard/0.0.1707.1019@0.0.1707.1019" timestamp="1664891755706" />
-    <state x="334" y="210" key="new project wizard/0.0.1920.1032@0.0.1920.1032" timestamp="1666857063940" />
+    <state x="334" y="210" key="new project wizard/0.0.1920.1032@0.0.1920.1032" timestamp="1667110454438" />
     <state x="616" y="238" width="672" height="677" key="run.anything.popup" timestamp="1666668742797">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="548" y="235" width="598" height="669" key="run.anything.popup/0.0.1707.1019@0.0.1707.1019" timestamp="1664888537140" />
     <state x="616" y="238" width="672" height="677" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1666668742797" />
-    <state x="580" y="223" width="756" height="687" key="search.everywhere.popup" timestamp="1666869928122">
+    <state x="580" y="223" width="756" height="687" key="search.everywhere.popup" timestamp="1667130724343">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="516" y="220" width="672" height="678" key="search.everywhere.popup/0.0.1707.1019@0.0.1707.1019" timestamp="1664934950454" />
-    <state x="580" y="223" width="756" height="687" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1666869928122" />
+    <state x="580" y="223" width="756" height="687" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1667130724343" />
     <state x="571" y="199" key="spring file set editor" timestamp="1666781017574">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

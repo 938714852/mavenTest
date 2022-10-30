@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pro02-module-java" />
-        <module name="pro07-module-spring02" />
+        <module name="pro07-module-spring_annotation" />
+        <module name="pro08-maven-spring_javaconfig" />
         <module name="pro04-modle-web" />
+        <module name="pro02-module-java" />
+        <module name="pro06-module-spring_xml" />
         <module name="pro05-module-apriori" />
-        <module name="pro06-module-spring01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="pro01-maven-spring_javaconfig" target="1.8" />
       <module name="pro05-modle-web" target="1.8" />
       <module name="pro07-module-web" target="1.8" />
       <module name="pro10-module-web" target="1.8" />
