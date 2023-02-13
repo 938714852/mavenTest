@@ -10,11 +10,13 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>pro02-module-java</module>
+        <module>pro03-maven-designpattern</module>
         <module>pro04-modle-web</module>
         <module>pro05-module-apriori</module>
         <module>pro06-module-spring_xml</module>
         <module>pro07-module-spring_annotation</module>
         <module>pro08-maven-spring_javaconfig</module>
+        <module>pro09-maven-jdkProxy</module>
 
     </modules>
 
