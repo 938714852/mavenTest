@@ -9,28 +9,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f34994f4-d36e-4357-80c2-bd98b770f8ca" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro03-maven-designpattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro03-maven-designpattern/src/main/java/com/ustc/maven/abstractfactory/AbstractFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro03-maven-designpattern/src/main/java/com/ustc/maven/decorator/DecoratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro03-maven-designpattern/src/main/java/com/ustc/maven/factory/FactoryMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro03-maven-designpattern/src/main/java/com/ustc/maven/lazysingleton/LazysingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro03-maven-designpattern/src/main/java/com/ustc/maven/lazysingleton/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro09-maven-jdkProxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro09-maven-jdkProxy/src/main/java/com/ustc/maven/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro09-maven-jdkProxy/src/main/java/com/ustc/maven/ICalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro09-maven-jdkProxy/src/main/java/com/ustc/maven/MyProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro09-maven-jdkProxy/src/test/java/ProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01-maven-idea-parent.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro07-module-spring_annotation/src/main/java/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro07-module-spring_annotation/src/main/java/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/target/classes/META-INF/pro08-maven-spring_javaconfig.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/target/classes/com/ustc/IocJavaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/pro08-maven-spring_javaconfig/target/classes/com/ustc/IocJavaConfig.class" afterDir="false" />
-    </list>
+    <list default="true" id="f34994f4-d36e-4357-80c2-bd98b770f8ca" name="Default Changelist" comment="Default Changelist" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,23 +63,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8.0_121&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/project/maven-workspace/pro01-maven-idea-parent&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;e66fc79c56e204a77bf00c7c75d77a25&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8.0_121",
+    "last_opened_file_path": "E:/project/maven-workspace/pro01-maven-idea-parent",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "spring.configuration.checksum": "e66fc79c56e204a77bf00c7c75d77a25",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -390,7 +370,7 @@
       <workItem from="1670574828993" duration="766000" />
       <workItem from="1671689166855" duration="1090000" />
       <workItem from="1675325166148" duration="4733000" />
-      <workItem from="1676280176866" duration="3835000" />
+      <workItem from="1676280176866" duration="4227000" />
     </task>
     <servers />
   </component>
