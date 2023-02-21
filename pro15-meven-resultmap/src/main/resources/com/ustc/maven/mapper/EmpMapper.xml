@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ustc.maven.mapper.EmpMapper">
+    <resultMap id="EmpAndDeptMap" type="EmpDeptDTO">
+        <id property="id" column="id"></id>
+        <result property="name" column="name"/>
+        <result property="cjsj" column="create_name"/>
+        <result property="did" column="dept_id"/>
+
+<!--        <result property="dept.id" column="id"/>-->
+<!--        <result property="dept.name" column="dept_name"/>-->
+        <!--
+        association 映射多对一查询
+        property  指定的“一”
+        自定义映射：      JavaType  类型(自定义映射才需要指定)
+        重用ResultMap：  resultMap 调用已存在的映射，重用resultMap
+        强行使我们的结果映射为多对一，当数据不是多对一，也会强行映射为多对一，并且底层是以ID来组织数据，一定要把id查出来，类似于Map中的key-value
+
+        当出现列名和resultMap指定的映射不一致的时候
+        解决：自己指定<resultMap columnPrefix:替换前缀
+        -->
+
+        <association property="dept" columnPrefix="" javaType="com.ustc.maven.pojo.Dept">
+            <id property="id" column="deptid"></id>
+            <result property="name" column="dept_name"></result>
+        </association>
+
+
+    </resultMap>
+    <select id="selectEmpAndDept" resultMap="EmpAndDeptMap">
+        SELECT
+        e.id,
+        e.NAME,
+        d.dept_name
+        FROM
+        emp e
+        LEFT JOIN dept d ON e.dept_id = d.deptid
+    </select>
+</mapper>

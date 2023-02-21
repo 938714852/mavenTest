@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ustc.maven.mapper.Empmapper">
+
+    <select id="selectEmp" resultType="com.ustc.maven.pojo.Emp">
+        select * from emp where id = #{id}
+    </select>
+    <insert id="insertEmp">
+        INSERT INTO `mysql`.`emp`(`name`) VALUES (#{name});
+    </insert>
+
+</mapper>

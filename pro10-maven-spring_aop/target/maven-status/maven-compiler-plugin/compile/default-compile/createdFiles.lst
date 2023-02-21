@@ -1,0 +1,6 @@
+com\ustc\maven\dao\impl\UserDaoImpl.class
+com\ustc\maven\service\IUserService.class
+com\ustc\maven\service\impl\UserServiceImpl.class
+com\ustc\maven\dao\IUserDao.class
+com\ustc\maven\entity\User.class
+com\ustc\maven\controller\UserController.class

@@ -7,5 +7,17 @@
     <file url="file://$PROJECT_DIR$/pro04-modle-web/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pro09-maven-jdkProxy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pro09-maven-jdkProxy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro10-maven-spring_aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro10-maven-spring_aop/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro11-maven-transaction/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro11-maven-transaction/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro12-maven-mybatisHello/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro12-maven-mybatisHello/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro13-maven-mybatisXml-logback/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro13-maven-mybatisXml-logback/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro14-maven-params_results/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro14-maven-params_results/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro15-meven-resultmap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro15-meven-resultmap/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -7,16 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pro07-module-spring_annotation" />
-        <module name="pro06-module-spring01" />
+        <module name="pro13-maven-mybatisXml-logback" />
         <module name="pro04-modle-web" />
         <module name="pro05-module-apriori" />
         <module name="pro01-maven-designpattern" />
         <module name="pro07-module-spring02" />
-        <module name="pro02-module-java" />
-        <module name="pro03-maven-designpattern" />
+        <module name="pro15-meven-resultmap" />
         <module name="pro08-maven-spring_javaconfig" />
         <module name="pro06-module-spring_xml" />
+        <module name="pro14-maven-params_results" />
         <module name="pro09-maven-jdkProxy" />
+        <module name="pro11-maven-transaction" />
+        <module name="pro06-module-spring01" />
+        <module name="pro10-maven-spring_aop" />
+        <module name="pro12-maven-mybatisHello" />
+        <module name="pro02-module-java" />
+        <module name="pro03-maven-designpattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

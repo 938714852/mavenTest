@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ustc.maven.mapper.DeptMapper">
+
+    <!-- 根据部门id查询部门-->
+    <select id="SelectDept" resultType="dept">
+        SELECT * FROM dept where id=#{id}
+    </select>
+    <!-- 嵌套结果： 一对多  查询部门及所有员工 -->
+    <resultMap id="SelectDeptAndEmpsMap" type="com.ustc.maven.pojo.Dept">
+        <id column="d_id"  property="id"></id>
+        <id column="dept_name"  property="name"></id>
+
+    </resultMap>
+    <resultMap id="DeptAndEmpMap" extends="SelectDeptAndEmpsMap" type="com.ustc.maven.pojo.DeptEmpDTO">
+        <collection property="emps" ofType="com.ustc.maven.pojo.Emp">
+            <id property="id" column="e_id"></id>
+            <result property="name" column="name"/>
+            <result property="cjsj" column="create_name"/>
+            <result property="did" column="dept_id"/>
+        </collection>
+
+    </resultMap>
+
+    <!--
+           <collection  映射一对多中的 “多”
+               property 指定需要映射的“多”的属性，一般声明为List
+               ofType  需要指定list的类型
+           -->
+    <select id="selectDeptAndEmps" resultMap="DeptAndEmpMap">
+        SELECT
+            t1.deptid AS d_id,
+            t1.dept_name,
+            t2.id e_id,
+            t2.name,
+            t2.create_time
+        FROM
+            dept t1
+                LEFT JOIN emp t2 ON t1.deptid = t2.dept_id
+
+    </select>
+</mapper>

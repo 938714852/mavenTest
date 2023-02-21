@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--就是 DOCTYPE 后面对应的根节点-->
+<configuration>
+    <properties resource="db.properties"></properties>
+    <!-- 根据包设置包里面所有的类的别名 : 会将类的名字作为别名（忽略大小写）
+         还可以为包里面的类单独设置个性别名：@Alias （默认的以类的名字作为别名就会失效）
+         除了可以设置自定义的类的别名以外，mybatis还内置很多常见类型的别名
+    -->
+    <typeAliases>
+        <package name="com.ustc.maven.pojo"/>
+    </typeAliases>
+    <!-- environments 可以多个环境
+        default 默认的数据库环境
+    -->
+    <environments default="development">
+        <!-- environment 配置数据库环境 开发环境 测试环境。。。 id 指定当前数据库环境的唯一表示，  会被父节点default所设置-->
+        <environment id="development">
+            <!-- 事务管理器 类型
+                 type="JDBC" 使用JDBC的事务管理
+                      "MANAGED" 不运用事务
+                 -->
+            <transactionManager type="JDBC"/>
+            <!--数据源
+                type 指定连接池
+                POOLED 指定使用mybatis连接池
+                UNPOOLED 不使用连接池
+                JNDI JNDI连接池 可以在tomcat中使用
+            -->
+            <dataSource type="POOLED">
+                <property name="driver" value="${mysql.driver}"/>
+                <property name="url" value="${mysql.url}"/>
+                <property name="username" value="${mysql.username}"/>
+                <property name="password" value="${mysql.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!-- 4种映射方式
+                1.<mapper resource   设置MapperXml 这种方式适用根据statementId进行操作
+                2.<mapper class      设置Mapper接口 这种方式使用接口绑定方式
+                3.<mapper url        使用磁盘的绝对路径（基本不用）
+                4.<package           根据包设置包下面所有的Mapper接口，这种方式使用接口绑定的方式和注解
+            -->
+<!--        <mapper resource="EmpMapper.xml"/>-->
+        <mapper class="com.ustc.maven.mapper.EmpMapper"></mapper>
+    </mappers>
+
+
+</configuration>

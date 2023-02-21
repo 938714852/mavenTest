@@ -17,8 +17,16 @@
         <module>pro07-module-spring_annotation</module>
         <module>pro08-maven-spring_javaconfig</module>
         <module>pro09-maven-jdkProxy</module>
+        <module>pro10-maven-spring_aop</module>
+        <module>pro11-maven-transaction</module>
+        <module>pro12-maven-mybatisHello</module>
+        <module>pro13-maven-mybatisXml-logback</module>
+        <module>pro14-maven-params_results</module>
+        <module>pro15-meven-resultmap</module>
+
 
     </modules>
+
 
 
 </project>
