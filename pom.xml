@@ -23,6 +23,7 @@
         <module>pro13-maven-mybatisXml-logback</module>
         <module>pro14-maven-params_results</module>
         <module>pro15-meven-resultmap</module>
+        <module>pro16-maven-dynasql</module>
 
 
     </modules>

@@ -18,6 +18,7 @@
         <module name="pro14-maven-params_results" />
         <module name="pro09-maven-jdkProxy" />
         <module name="pro11-maven-transaction" />
+        <module name="pro16-maven-dynasql" />
         <module name="pro06-module-spring01" />
         <module name="pro10-maven-spring_aop" />
         <module name="pro12-maven-mybatisHello" />
