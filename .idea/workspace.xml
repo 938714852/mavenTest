@@ -9,20 +9,41 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f34994f4-d36e-4357-80c2-bd98b770f8ca" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/pro16-maven-dynasql/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro16-maven-dynasql/src/main/java/com/ustc/maven/mapper/EmpMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro16-maven-dynasql/src/main/java/com/ustc/maven/pojo/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro16-maven-dynasql/src/main/java/com/ustc/maven/pojo/QueryEmpDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro16-maven-dynasql/src/main/resources/com/ustc/maven/mapper/EmpMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro16-maven-dynasql/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro16-maven-dynasql/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro16-maven-dynasql/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro16-maven-dynasql/src/test/java/com/ustc/maven/MyBatisTest.java" afterDir="false" />
+    <list default="true" id="f34994f4-d36e-4357-80c2-bd98b770f8ca" name="Default Changelist" comment="dynasql">
+      <change afterPath="$PROJECT_DIR$/pro17-maven-cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro17-maven-cache/src/main/java/com/ustc/maven/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro17-maven-cache/src/main/java/com/ustc/maven/mapper/EmpMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro17-maven-cache/src/main/java/com/ustc/maven/pojo/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro17-maven-cache/src/main/java/com/ustc/maven/pojo/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro17-maven-cache/src/main/resources/com/ustc/maven/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro17-maven-cache/src/main/resources/com/ustc/maven/mapper/EmpMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro17-maven-cache/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro17-maven-cache/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro17-maven-cache/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro17-maven-cache/src/test/java/MyBatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro18-maven-pagehelper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro18-maven-pagehelper/src/main/java/com/ustc/maven/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro18-maven-pagehelper/src/main/java/com/ustc/maven/mapper/EmpMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro18-maven-pagehelper/src/main/java/com/ustc/maven/pojo/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro18-maven-pagehelper/src/main/java/com/ustc/maven/pojo/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro18-maven-pagehelper/src/main/resources/com/ustc/maven/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro18-maven-pagehelper/src/main/resources/com/ustc/maven/mapper/EmpMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro18-maven-pagehelper/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro18-maven-pagehelper/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro18-maven-pagehelper/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro18-maven-pagehelper/src/test/java/MyBatisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro16-maven-dynasql/target/classes/com/ustc/maven/mapper/EmpMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro16-maven-dynasql/target/classes/com/ustc/maven/mapper/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro16-maven-dynasql/target/classes/com/ustc/maven/pojo/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro16-maven-dynasql/target/classes/com/ustc/maven/pojo/QueryEmpDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro16-maven-dynasql/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro16-maven-dynasql/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro16-maven-dynasql/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro16-maven-dynasql/target/test-classes/com/ustc/maven/MyBatisTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +107,7 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8.0_121",
     "last_directory_selection": "E:/project/maven-workspace/pro01-maven-idea-parent/pro16-maven-dynasql/src/test/java",
-    "last_opened_file_path": "E:/初学者/java基础课程/mybaits-笔记/mybatis代码/05-mybatis_dynaSql",
+    "last_opened_file_path": "E:/初学者/java基础课程/mybaits-笔记/mybatis代码/07-mybatis_pagehelper",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,7 +116,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "4a1aabd2da1f0434b909486c4b08cbab",
     "vue.rearranger.settings.migration": "true"
   },
@@ -114,11 +135,11 @@
       <recent name="model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro18-maven-pagehelper\src\main" />
+      <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro17-maven-cache\src\main" />
       <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro16-maven-dynasql\src\main" />
       <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro15-meven-resultmap\src\main\resources\com\ustc\maven\mapper" />
       <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro15-meven-resultmap\src\main" />
-      <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro15-meven-resultmap\src\main\java" />
-      <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro15-meven-resultmap\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\project\maven-workspace\pro01-maven-idea-parent\pro15-meven-resultmap\src\main\resources" />
@@ -143,50 +164,32 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTest.test06">
-    <configuration name="MyBatisTest.test02 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro16-maven-dynasql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ustc.maven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ustc.maven" />
-      <option name="MAIN_CLASS_NAME" value="com.ustc.maven.MyBatisTest" />
+  <component name="RunManager" selected="JUnit.MyBatisTest.test01 (1)">
+    <configuration name="MyBatisTest.test01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro18-maven-pagehelper" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyBatisTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro17-maven-cache" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyBatisTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro17-maven-cache" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyBatisTest" />
       <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBatisTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro16-maven-dynasql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ustc.maven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ustc.maven" />
-      <option name="MAIN_CLASS_NAME" value="com.ustc.maven.MyBatisTest" />
-      <option name="METHOD_NAME" value="test03" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBatisTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro16-maven-dynasql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ustc.maven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ustc.maven" />
-      <option name="MAIN_CLASS_NAME" value="com.ustc.maven.MyBatisTest" />
-      <option name="METHOD_NAME" value="test04" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -328,20 +331,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyBatisTest.test02 (1)" />
-      <item itemvalue="JUnit.MyBatisTest.test03" />
-      <item itemvalue="JUnit.MyBatisTest.test04" />
+      <item itemvalue="JUnit.MyBatisTest.test01" />
+      <item itemvalue="JUnit.MyBatisTest.test01 (1)" />
+      <item itemvalue="JUnit.MyBatisTest.test02" />
       <item itemvalue="JUnit.MyBatisTest.test05" />
       <item itemvalue="JUnit.MyBatisTest.test06" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyBatisTest.test01 (1)" />
+        <item itemvalue="JUnit.MyBatisTest.test02" />
+        <item itemvalue="JUnit.MyBatisTest.test01" />
         <item itemvalue="JUnit.MyBatisTest.test06" />
         <item itemvalue="JUnit.MyBatisTest.test05" />
-        <item itemvalue="JUnit.MyBatisTest.test04" />
-        <item itemvalue="JUnit.MyBatisTest.test03" />
-        <item itemvalue="JUnit.MyBatisTest.test02 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -432,7 +435,8 @@
       <workItem from="1676858306398" duration="5294000" />
       <workItem from="1676875536606" duration="18107000" />
       <workItem from="1676962079132" duration="15789000" />
-      <workItem from="1677026856441" duration="7943000" />
+      <workItem from="1677026856441" duration="9496000" />
+      <workItem from="1677052251307" duration="12364000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1676973897412</created>
@@ -441,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676973897412</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dynasql">
+      <created>1677035869768</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677035869768</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +471,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Default Changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+    <MESSAGE value="dynasql" />
+    <option name="LAST_COMMIT_MESSAGE" value="dynasql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

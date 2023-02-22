@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="pro18-maven-pagehelper" />
         <module name="pro07-module-spring_annotation" />
         <module name="pro13-maven-mybatisXml-logback" />
         <module name="pro04-modle-web" />
@@ -18,6 +19,7 @@
         <module name="pro14-maven-params_results" />
         <module name="pro09-maven-jdkProxy" />
         <module name="pro11-maven-transaction" />
+        <module name="pro17-maven-cache" />
         <module name="pro16-maven-dynasql" />
         <module name="pro06-module-spring01" />
         <module name="pro10-maven-spring_aop" />

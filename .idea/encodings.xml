@@ -21,5 +21,9 @@
     <file url="file://$PROJECT_DIR$/pro15-meven-resultmap/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pro16-maven-dynasql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pro16-maven-dynasql/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro17-maven-cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro17-maven-cache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro18-maven-pagehelper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro18-maven-pagehelper/src/main/resources" charset="UTF-8" />
   </component>
 </project>

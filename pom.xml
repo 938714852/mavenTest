@@ -24,6 +24,8 @@
         <module>pro14-maven-params_results</module>
         <module>pro15-meven-resultmap</module>
         <module>pro16-maven-dynasql</module>
+        <module>pro17-maven-cache</module>
+        <module>pro18-maven-pagehelper</module>
 
 
     </modules>
